@@ -1,0 +1,44 @@
+body{
+  background: #0200FF;
+  padding-top: 10px;
+  margin-top: 60px;
+  font-family: 'Lucida Grande';
+  font-size: 64px;
+  font-weight: bold;
+} 
+
+p{
+  color: rgb(255, 255, 255); 
+  margin: 0px 0 0 60px;
+  width: 837px;
+  height: 100%;
+  text-decoration: none;
+}
+
+
+.b0{ background: #000000; }
+.b1{ background: #D72B2B; }
+.b2{ background: #FF2BD7; }
+.b3{ background: #F5A623; }
+
+::selection{
+  background: black;
+}
+
+.contact{
+  color:#7EFFE2;
+  margin: 0px 0 0 60px;
+  display: inline-block;
+}
+
+.shape{
+  width: 13px;
+  height: 68px;
+  background: #7EFFE2;
+  float: left;
+}
+
+.contact-me{
+  float:left;
+  margin-left: 10px;
+}
