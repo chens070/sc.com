@@ -1,0 +1,27 @@
+body{
+  background: #000000;
+  color: #fff;
+  padding-top: 10px;
+  margin-top: 60px;
+  font-family: 'Lucida Grande';
+  font-size: 0;
+  font-weight: bold;
+} 
+
+.n{ 
+  display: inline-block;
+ }
+
+.column {
+  text-align: center;
+  width: 33.3%;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 64px;
+}
+
+.n1{ background-color: #D72B2B; }
+.n2{ background-color: #FF2BD7; }
+.n3{ background-color: #F5A623; }
+
+.projects{ font-size: 20px; }
