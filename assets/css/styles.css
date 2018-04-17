@@ -5,11 +5,14 @@ body{
   font-family: 'Lucida Grande';
   font-size: 64px;
   font-weight: bold;
-  
 } 
 
+.intro a:link{ 
+  text-decoration: none;
+  color: #fff;
+}
 
-p{
+.intro p{
   color: rgb(255, 255, 255); 
   margin: 0px 0 0 60px;
   width: 837px;
@@ -29,8 +32,8 @@ p{
 
 .contact{
   color:#7EFFE2;
-  margin: 0px 0 0 60px;
-  display: inline-block;
+  margin: 300px 0 0 60px;
+  position: fixed;
 }
 
 .shape{
@@ -38,9 +41,16 @@ p{
   height: 68px;
   background: #7EFFE2;
   float: left;
+  
 }
 
 .contact-me{
   float:left;
   margin-left: 10px;
+}
+
+
+/* Interactive page */
+body .interactive{
+  background: #fff;
 }
