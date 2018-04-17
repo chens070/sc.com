@@ -51,6 +51,6 @@ body{
 
 
 /* Interactive page */
-body .interactive{
+body.interactive{
   background: #fff;
 }
