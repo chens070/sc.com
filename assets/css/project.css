@@ -58,3 +58,12 @@ h1{
 .project:hover{
   background: #fff;
 }
+
+
+.home-button{
+ background: #0200FF;
+ width: 100px;
+ height: 20px;
+ margin-top: 30%;
+}
+
