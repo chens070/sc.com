@@ -1,27 +1,60 @@
 body{
   background: #000000;
   color: #fff;
-  padding-top: 10px;
-  margin-top: 60px;
+  padding:0;
+  margin: 0;
   font-family: 'Lucida Grande';
   font-size: 0;
   font-weight: bold;
 } 
 
-.n{ 
-  display: inline-block;
+a:link{ 
+  text-decoration: none;
+  color: #fff;
  }
 
-.column {
+.n{
   text-align: center;
-  width: 33.3%;
+  width: 33.2%;
   vertical-align: top;
   display: inline-block;
-  font-size: 64px;
+  font-size: 34px;
 }
 
-.n1{ background-color: #D72B2B; }
-.n2{ background-color: #FF2BD7; }
-.n3{ background-color: #F5A623; }
+.n1{ border: 1px solid #D72B2B; }
+.n2{ border: 1px solid #FF2BD7; }
+.n3{ border: 1px solid #F5A623; }
 
-.projects{ font-size: 20px; }
+.interactive .n1{
+  background-color: #D72B2B; 
+  border: 1px solid #D72B2B;
+}
+.branding .n2{
+  background-color: #FF2BD7; 
+  border: 1px solid #FF2BD7;
+}
+.packaging .n3{
+  background-color: #F5A623; 
+  border: 1px solid #F5A623;
+}
+
+
+.project{
+  padding:10px;
+  margin:40px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 20px; 
+  width: 300px;
+  height: 300px;
+  border: 1px solid #fff;
+}
+
+h1{
+  margin:0;
+  text-align:center;
+}
+
+.project:hover{
+  background: #fff;
+}
