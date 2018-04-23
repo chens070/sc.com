@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="233px" height="89px" viewBox="0 0 233 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>home arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="home-arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Arrow-back-Copy">
+            <path d="M227.948205,43.4186788 L19.2477553,43.4186788" id="Line" stroke="#0200FF" stroke-width="10" stroke-linecap="square"></path>
+            <text id="Sheila" font-family="LucidaGrande-Bold, Lucida Grande" font-size="36" font-weight="bold" fill="#0200FF">
+                <tspan x="66" y="84">Sheila</tspan>
+            </text>
+            <path d="M228.5,15.5 L228.5,42.9590604" id="Line-3" stroke="#0200FF" stroke-width="9" stroke-linecap="square"></path>
+            <polygon id="Triangle" fill="#0200FF" points="0.133471284 44.8802237 53.1334713 0.88022373 53.1334713 88.8802237"></polygon>
+        </g>
+    </g>
+</svg>
