@@ -1,18 +1,23 @@
 body{
-  background: #000000;
-  color: #fff;
   padding:0;
   margin: 0;
   font-family: 'Lucida Grande';
   font-size: 0;
   font-weight: bold;
+  background: #000000;
 } 
 
 a:link{ 
   text-decoration: none;
   color: #fff;
  }
+ 
 a:visited{ color: #fff;}
+
+.topnav{ 
+  background:#000000;
+  color: #fff;
+}
 
 .n{
   text-align: center;
@@ -40,46 +45,3 @@ a:visited{ color: #fff;}
 }
 
 
-.project{
-  padding:10px;
-  margin:40px;
-  display: inline-block;
-  vertical-align: top;
-  font-size: 20px; 
-  width: 300px;
-  height: 300px;
-  text-align:center;
-  font-family: sans-serif;
-}
-/* 
-.project:hover{ 
-  background: #fff;
-} */
-
-.project .horiz {
-  width: 300px;
-  display: none;
-}
-
-.project:hover .horiz { 
-  display: inline;
-}
-
-
-
-h1{ 
-  margin:0; 
-  font-family: 'Lucida Grande';
-}
- 
-
-
-
-.home{
- background: #0200FF;
- width: 100px;
- height: 50px;
- position: fixed;
- bottom:0;
- left:0;
-}
