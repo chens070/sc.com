@@ -61,8 +61,13 @@ a:visited{ color: #fff;}
   display: none;
 }
 
-.project:hover .horiz { 
-  display: inline;
+.project:hover {
+  font-size: 0;
+}
+
+.project.unfolded:hover {
+  background: url('../img/unfoldapp.jpg') center center no-repeat;
+  background-size: cover;
 }
 
 

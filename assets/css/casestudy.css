@@ -70,4 +70,4 @@ margin: 0 auto 50px;
 }
 
 video{ width:100%;}
-
+video.video-step { width: 350px; }
