@@ -65,6 +65,25 @@ a:visited{ color: #fff;}
   font-size: 0;
 }
 
+.project.dropgrow:hover{
+  background: url('../img/drop&grow.jpg.jpg') center center no-repeat;
+  background-size: cover;
+}
+.project.steps:hover{
+  background: url('../img/steps-main-1.jpg') center center no-repeat;
+  background-size: cover;
+}
+.project.add:hover{
+  background: url('../img/add.png') center center no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+
 .project.unfold:hover {
   background: url('../img/unfoldapp.jpg') center center no-repeat;
   background-size: cover;
