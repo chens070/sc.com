@@ -65,12 +65,13 @@ a:visited{ color: #fff;}
   font-size: 0;
 }
 
+/* interaction */
 .project.dropgrow:hover{
-  background: url('../img/drop&grow.jpg') center center no-repeat;
+  background: url('../img/dropgrow-2.png') center center no-repeat;
   background-size: cover;
 }
 .project.steps:hover{
-  background: url('../img/steps-main-1.jpg') center center no-repeat;
+  background: url('../img/stepslogo.jpg') center center no-repeat;
   background-size: cover;
 }
 .project.add:hover{
@@ -78,12 +79,7 @@ a:visited{ color: #fff;}
   background-size: cover;
 }
 
-
-
-
-
-
-
+/* branding */
 .project.unfold:hover {
   background: url('../img/unfoldapp.jpg') center center no-repeat;
   background-size: cover;
@@ -101,7 +97,7 @@ a:visited{ color: #fff;}
   background-size: cover;
 }
 .project.ellusion:hover {
-  background: url('../img/Ellusion_poster_1.jpg') center center no-repeat;
+  background: url('../img/Ellusion_Web_2.jpg') center center no-repeat;
   background-size: cover;
 }
 .project.mta:hover {
@@ -110,7 +106,7 @@ a:visited{ color: #fff;}
 }
 
 
-
+/* packaging */
 .project.paiwan:hover {
   background: url('../img/paiwanjin.png') center center no-repeat;
   background-size: cover;
