@@ -66,7 +66,7 @@ a:visited{ color: #fff;}
 }
 
 .project.dropgrow:hover{
-  background: url('../img/drop&grow.jpg.jpg') center center no-repeat;
+  background: url('../img/drop&grow.jpg') center center no-repeat;
   background-size: cover;
 }
 .project.steps:hover{
@@ -106,6 +106,33 @@ a:visited{ color: #fff;}
 }
 .project.mta:hover {
   background: url('../img/mta-1.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+
+
+.project.paiwan:hover {
+  background: url('../img/paiwanjin.png') center center no-repeat;
+  background-size: cover;
+}
+.project.xzapz:hover {
+  background: url('../img/xzap-1.jpg') center center no-repeat;
+  background-size: cover;
+}
+.project.tushiez:hover {
+  background: url('../img/Crystal-Tushiez.gif') center center no-repeat;
+  background-size: cover;
+}
+.project.outofsight:hover {
+  background: url('../img/outofsight-1.jpg') center center no-repeat;
+  background-size: cover;
+}
+.project.mm:hover {
+  background: url('../img/MM.png') center center no-repeat;
+  background-size: cover;
+}
+.project.kw:hover {
+  background: url('../img/kw_kid-1.JPG') center center no-repeat;
   background-size: cover;
 }
 
