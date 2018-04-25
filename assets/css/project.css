@@ -65,8 +65,28 @@ a:visited{ color: #fff;}
   font-size: 0;
 }
 
-.project.unfolded:hover {
+.project.unfold:hover {
   background: url('../img/unfoldapp.jpg') center center no-repeat;
+  background-size: cover;
+}
+.project.earthseawarrior:hover {
+  background: url('../img/ESW_web_newlogo_banner.gif') center center no-repeat;
+  background-size: cover;
+}
+.project.puppettea:hover {
+  background: url('../img/puppet tea-all.jpg') center center no-repeat;
+  background-size: cover;
+}
+.project.wetmarket:hover {
+  background: url('../img/wetmarket.png') center center no-repeat;
+  background-size: cover;
+}
+.project.ellusion:hover {
+  background: url('../img/Ellusion_poster_1.jpg') center center no-repeat;
+  background-size: cover;
+}
+.project.mta:hover {
+  background: url('../img/mta-1.jpg') center center no-repeat;
   background-size: cover;
 }
 
