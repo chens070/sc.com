@@ -59,9 +59,14 @@ a:visited{ color: #fff;}
   margin: 50px auto;
 }
 
+.feature-image{
+  height: 1024px;
+}
 .brief{ 
   width: 50%;
-margin: 0 auto 50px;
+  margin: -350px auto 50px;
+  background-color: #fff;
+  
 }
 
 .container p { 

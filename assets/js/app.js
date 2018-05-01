@@ -11,10 +11,10 @@
 //# sourceMappingURL=typed.min.js.map
 
 
-var typed = new Typed('.test', {
-  strings: ["Hello,"],
-  typeSpeed: 30
-});
+// var typed = new Typed('.test', {
+//   // strings: ["Hello,"],
+//   typeSpeed: 30
+// });
 
 $('.scroll-top').click(function() {
   $('html, body').animate({ scrollTop: 0 });
