@@ -54,18 +54,26 @@ a:visited{ color: #fff;}
 }
 .container h1{ text-align: center;}
 .container{
+  position: relative;
   font-size: 16px;
   width: 80%;
   margin: 50px auto;
 }
 
-.feature-image{
-  height: 1024px;
+.piece{
+  
+  background-size: cover;
+  background: center center no-repeat;
 }
+
 .brief{ 
-  width: 50%;
-  margin: -350px auto 50px;
-  background-color: #fff;
+  width: 50vw;
+  /* margin: -350px auto 50px; */
+  position:absolute;
+  top:-250px;
+  left: 15vw;
+  
+  background: #fff;
   
 }
 
