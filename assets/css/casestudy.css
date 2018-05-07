@@ -33,9 +33,9 @@ a:visited{ color: #000000;}
   text-align: center;
 }
 
-.menu-left a:link{
-  padding-top: 20px;
-}
+.menu-left a:link{ padding-top: 20px; }
+
+.menu-left:hover{ background: yellow; }
 
 .catagory{ 
   right: 100px;
@@ -58,13 +58,16 @@ a:visited{ color: #000000;}
 }
 
 
+.work{ padding-top: 50px; }
+
 
 
 .container{
-  font-size: 16px;
+  font-size: 20px;
   width: 80%;
-  margin: 50px auto;
+  margin: 0 auto;
 }
+@media (max-width:890px){ .container{font-size: 16px;}}
 
 
 .brief{ 
@@ -82,20 +85,26 @@ h1{
   text-align: center;
   color: #fff;
   text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+  font-size: 64px;
 }
 .container p { 
   font-weight: normal;
 }
 
 video{ width:100%;}
-video.video-step { width: 350px; }
+video.video-step { 
+  width: 350px; 
+  margin: auto;
+  position: relative;}
+video.video-unfoldapp {width:350px;}
 
 
 .piece{
   width: 100%;
   background-size: cover;
   background: center center no-repeat;}
-
+.piece.iphone{ display: inline;}
+.iphone{ width: 500px;}
   
 .scroll-top { 
   width: 100%;

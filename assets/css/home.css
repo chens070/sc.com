@@ -110,8 +110,11 @@ body.interactive{
 .b1:hover{
   background: url('../img/drop&grow.jpg') no-repeat;
   background-size:cover;}
+  /* display: block;} */
 .b2:hover{ background: url('../img/stepslogo.jpg') no-repeat;}
-.b3:hover{ background: url('../img/add.png') no-repeat;}
+.b3:hover{ 
+  background: url('../img/add.png') no-repeat;
+  background-size:cover;}
 .b4:hover{ background: url('../img/unfoldapp.jpg') no-repeat;}
 .b5:hover{ background: url('../img/puppet tea-all.jpg') no-repeat;}
 .b6:hover{ background: url('../img/ESW_web_newlogo_banner.gif') no-repeat;}

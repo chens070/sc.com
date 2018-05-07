@@ -19,3 +19,21 @@
 $('.scroll-top').click(function() {
   $('html, body').animate({ scrollTop: 0 });
 });
+
+$(document).ready(function () {
+  $('div.m1').click(function() {
+  $('html, home').animate({
+    scrollTop: $("div.uxui").offset().top
+  }, 1000)
+}), 
+  $('div.m2').click(function (){
+    $('html, home').animate({
+      scrollTop: $("div.branding").offset().top
+    }, 1000)
+  }),
+  $('div.m3').click(function (){
+    $('html, home').animate({
+      scrollTop: $("div.packaging").offset().top
+    }, 1000)
+  })
+});
