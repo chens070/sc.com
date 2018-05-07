@@ -31,13 +31,11 @@ body{
   position: fixed;
   left:0;
   top:0;
-  font-size: 15px;
+  font-size: 45px;
   text-align: center;
 }
 
-.menu-left a:link{
-  padding-top: 20px;
-}
+.menu-left a:link{ padding-top: 20px; }
 
 .menu-right{
   width: 50px;
@@ -67,7 +65,9 @@ a:link{
   text-decoration: none;
   color: greenyellow;
 } */
-a:visited{ color: #000000;}
+a:visited{ 
+  color: #000000;
+  text-decoration: line-through;}
 
 .block{
   height: 80vh;

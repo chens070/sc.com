@@ -1,82 +1,88 @@
 body{
+  margin:0;
   padding:0;
-  margin: 0;
-  font-family: 'Lucida Grande';
-  font-size: 0;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 } 
 
 a:link{ 
   text-decoration: none;
-  color: #fff;
+  color: #000000;
  }
  
-a:visited{ color: #fff;}
+a:visited{ color: #000000;}
 
-.topnav{ 
-  background:#000000;
-  color: #fff;
+.top-nav{ 
+  position: fixed;
+  width: 100vw;
+  height: 48px;
+  background: #fff;
+  border-top: 3px solid #0000;
+  border-style: dashed;
 }
 
-.n{
+.menu-left{
+  width: 50px;
+  height:50px;
+  border: 3px solid #000000;
+  background: #fff;
+  position: fixed;
+  left:0;
+  top:0;
+  font-size: 45px;
   text-align: center;
-  width: 33.2%;
-  vertical-align: top;
-  display: inline-block;
-  font-size: 24px;
 }
 
-.n1{ border: 1px solid #D72B2B; }
-.n2{ border: 1px solid #FF2BD7; }
-.n3{ border: 1px solid #F5A623; }
-
-.interactive .n1{
-  background-color: #D72B2B; 
-  border: 1px solid #D72B2B;
-}
-.branding .n2{
-  background-color: #FF2BD7; 
-  border: 1px solid #FF2BD7;
-}
-.packaging .n3{
-  background-color: #F5A623; 
-  border: 1px solid #F5A623;
+.menu-left a:link{
+  padding-top: 20px;
 }
 
-.piece{width: 100%;}
+.catagory{ 
+  right: 100px;
+  top:15px;
+  position: fixed;
+  font-size: 20px;
+}
+.catagory a:link{ 
+  padding-left: 20px;}
 
-.p2{ width: 450px;
-  display: inline-block;
+
+.menu-right{
+  width: 50px;
+  height: 50px;
+  border: 3px solid #000000;
+  background: #fff;
+  position: fixed;
+  right:0;
+  top:0;
 }
 
-.work{
-  margin: 0 auto;
-}
-.container h1{ text-align: center;}
+
+
+
 .container{
-  position: relative;
   font-size: 16px;
   width: 80%;
   margin: 50px auto;
 }
 
-.piece{
-  
-  background-size: cover;
-  background: center center no-repeat;
-}
 
 .brief{ 
   width: 50vw;
   /* margin: -350px auto 50px; */
-  position:absolute;
-  top:-250px;
-  left: 15vw;
-  
-  background: #fff;
-  
+  /* position:absolute; */
+  /* top:-250px; */
+  /* left: 15vw; */
+  background: #fff; 
+  margin: auto;
+  margin-bottom: 50px;
 }
 
+h1{ 
+  text-align: center;
+  color: #fff;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
 .container p { 
   font-weight: normal;
 }
@@ -84,6 +90,13 @@ a:visited{ color: #fff;}
 video{ width:100%;}
 video.video-step { width: 350px; }
 
+
+.piece{
+  width: 100%;
+  background-size: cover;
+  background: center center no-repeat;}
+
+  
 .scroll-top { 
   width: 100%;
   margin: auto;
