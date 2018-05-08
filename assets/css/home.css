@@ -69,8 +69,45 @@ a:visited{
   color: #000000;
   text-decoration: line-through;}
 
-.block{
-  height: 80vh;
+.block.intro{
+  height: 75vh;
+  padding: 5vw;
+  margin: 3vw;
+  border: 3px solid black;
+  border-style: dashed;
+  background: #fff;
+}
+.block.about-me{
+  height: 75vh;
+  padding: 5vw;
+  margin: 3vw;
+  border: 3px solid black;
+  border-style: dashed;
+  background: #fff;
+}
+
+.block.uxui{
+  padding: 5vw;
+  margin: 3vw;
+  border: 3px solid black;
+  border-style: dashed;
+  background: #fff;
+}
+.block.branding{
+  padding: 5vw;
+  margin: 3vw;
+  border: 3px solid black;
+  border-style: dashed;
+  background: #fff;
+}
+.block.packaging{
+  padding: 5vw;
+  margin: 3vw;
+  border: 3px solid black;
+  border-style: dashed;
+  background: #fff;
+}
+.block.contact{
   padding: 5vw;
   margin: 3vw;
   border: 3px solid black;
