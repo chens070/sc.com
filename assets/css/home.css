@@ -36,7 +36,7 @@ body{
 }
 
 .menu-left a:link{ padding-top: 20px; }
-
+.sheila .menu-left:hover{ background: yellow;}
 .menu-right{
   width: 50px;
   height: 50px;
