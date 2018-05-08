@@ -90,8 +90,13 @@ a:visited{
 .branding{ border: 3px solid rgb(107, 235, 235);}
 .packaging{ border: 3px solid greenyellow;} */
 
-.button{ color: #000000;}
 
+.button{ 
+  color: #000000;
+;}
+.button span{ 
+  display:block;
+  width: 500px;}
 ::selection{
   background: black;
 }
@@ -106,24 +111,61 @@ body.interactive{
   background: #fff;
 }
 
+
 /* hover images */
 .b1:hover{
   background: url('../img/drop&grow.jpg') no-repeat;
-  background-size:cover;}
+  background-size:cover;
+}
   /* display: block;} */
-.b2:hover{ background: url('../img/stepslogo.jpg') no-repeat;}
+.b2:hover{ 
+  background: url('../img/stepslogo.jpg') no-repeat;
+  background-size:cover;
+}
 .b3:hover{ 
   background: url('../img/add.png') no-repeat;
-  background-size:cover;}
-.b4:hover{ background: url('../img/unfoldapp.jpg') no-repeat;}
-.b5:hover{ background: url('../img/puppet tea-all.jpg') no-repeat;}
-.b6:hover{ background: url('../img/ESW_web_newlogo_banner.gif') no-repeat;}
-.b7:hover{ background: url('../img/wetmarket.png') no-repeat;}
-.b8:hover{ background: url('../img/Ellusion_Web_1.jpg') no-repeat;}
-.b9:hover{ background: url('../img/xzap-bottles.jpg') no-repeat;}
-.b10:hover{ background: url('../img/paiwan-top.jpg') no-repeat;}
-.b11:hover{ background: url('../img/outofsight-1.jpg') no-repeat;}
-.b12:hover{ background: url('../img/MM.png') no-repeat;}
+  background-size:cover;
+}
+.b4:hover{ 
+  background: url('../img/unfold-2.jpg') no-repeat;
+  background-size:cover;
+}
+.b5:hover{
+   background: url('../img/puppet tea-all.jpg') no-repeat;
+   background-size:cover;
+  }
+.b6:hover{ 
+  background: url('../img/ESW_web_newlogo_banner.gif') no-repeat;
+  background-size:cover;
+}
+.b7:hover{ 
+  background: url('../img/wetmarket.png') no-repeat;
+  background-size:cover;
+}
+.b8:hover{ 
+  background: url('../img/Ellusion_Web_1.jpg') no-repeat;
+  background-size:cover;
+}
+.b9:hover{
+  background: url('../img/xzap-bottles.jpg') no-repeat;
+  background-size:cover;
+}
+.b10:hover{
+  background: url('../img/paiwan-top.jpg') no-repeat;
+  background-size:cover;
+}
+.b11:hover{ 
+  background: url('../img/outofsight-1.jpg') no-repeat;
+  background-size:cover;
+}
+.b12:hover{ 
+  background: url('../img/MM.png') no-repeat;
+  background-size:cover;
+}
+.b13:hover{ 
+  background: url('../img/TR_Subway.jpg') no-repeat;
+  background-size:cover;
+}
 
 
 
@@ -146,4 +188,5 @@ body.interactive{
   margin: auto;
   padding: 10px;
   display: block;
+  width: 80px;
 }
