@@ -46,6 +46,14 @@ $(document).ready(function () {
 });
 
 
+$('.jump-link').click(function(event) {
+  event.preventDefault();
+  event.stopPropagation();
+  var target   = $(this).data('target'),
+      y_offset = $(target).offset().top;
+
+  $('html, body').animate({ scrollTop: y_offset });
+});
 
 
 
