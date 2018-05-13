@@ -108,8 +108,16 @@ video{ width:100%;}
 video.video-step { 
   width: 350px; 
   margin: auto;
-  position: relative;}
-video.video-unfoldapp {width:350px;}
+  position: relative;
+  display: block;
+}
+
+video.video-unfoldapp {
+  width:350px;
+  display: block;
+  margin:auto;
+  position: relative;
+  padding-top: 50px;}
 
 
 .piece{
@@ -124,9 +132,7 @@ video.video-unfoldapp {width:350px;}
   display:block;
   text-align: center;
 }
-@media (max-width:1400px){
-  video.dropgrow{ width: 1960;}
-}
+
 
 
 .phone{ width: 33%;}
