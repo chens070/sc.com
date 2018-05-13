@@ -88,6 +88,8 @@ a:visited{
   border-style: dashed;
   background: #fff;
 }
+.about-me p{ margin-bottom:0;}
+.about-me img{ width: 40%; }
 
 .block.uxui{
   padding: 5vw;
@@ -160,36 +162,36 @@ body.interactive{
 } */
 /* hover images */
 .b1:hover{
-  background: url('../img/drop&grow-3.jpg') no-repeat;
+  background: url('../img/drop&grow-3.jpg')center center no-repeat;
   background-size:cover;
 }
   /* display: block;} */
 .b2:hover{ 
-  background: url('../img/Steps-iphone.jpg') no-repeat;
+  background: url('../img/Steps-iphone.jpg')center center no-repeat;
   background-size:cover;
 }
 .b3:hover{ 
-  background: url('../img/add.png') no-repeat;
+  background: url('../img/add.png')no-repeat;
   background-size:cover;
 }
 .b4:hover{ 
-  background: url('../img/unfold-2.jpg') no-repeat;
+  background: url('../img/unfold-2.jpg')center center no-repeat;
   background-size:cover;
 }
 .b5:hover{
-   background: url('../img/puppet tea-all.jpg') no-repeat;
+   background: url('../img/puppet tea-all.jpg')center center no-repeat;
    background-size:cover;
   }
 .b6:hover{ 
-  background: url('../img/ESW_web_newlogo_banner.gif') no-repeat;
+  background: url('../img/ESW_web_newlogo_banner.gif') center center no-repeat;
   background-size:cover;
 }
 .b7:hover{ 
-  background: url('../img/wetmarket.png') no-repeat;
+  background: url('../img/wetmarket.png') center center no-repeat;
   background-size:cover;
 }
 .b8:hover{ 
-  background: url('../img/Ellusion_Ticket_2.jpg') no-repeat;
+  background: url('../img/Ellusion_Ticket_2.jpg') center center no-repeat;
   background-size:cover;
 }
 .b9:hover{
@@ -197,7 +199,7 @@ body.interactive{
   background-size:cover;
 }
 .b10:hover{
-  background: url('../img/paiwan-closeup.jpg') no-repeat;
+  background: url('../img/paiwan-ad.jpg') center center no-repeat;
   background-size:cover;
 }
 .b11:hover{ 

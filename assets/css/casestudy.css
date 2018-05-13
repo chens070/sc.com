@@ -118,6 +118,18 @@ video.video-unfoldapp {width:350px;}
   background: center center no-repeat;}
 .piece.iphone{ display: inline;}
 .iphone{ width: 500px;}
+
+.menu-screens{
+  margin: auto;
+  display:block;
+  text-align: center;
+}
+@media (max-width:1400px){
+  video.dropgrow{ width: 1960;}
+}
+
+
+.phone{ width: 33%;}
   
 .scroll-top { 
   width: 100%;
