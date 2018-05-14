@@ -125,11 +125,13 @@ h1{
 }
 
 video{ width:100%;}
+
 video.video-step { 
   width: 350px; 
   margin: auto;
   position: relative;
   display: block;
+  border: 1px solid black;
 }
 
 .unfold-iphone{
