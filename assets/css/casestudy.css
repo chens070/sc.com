@@ -46,7 +46,8 @@ a:visited{ color: #000000;}
   font-size: 20px;
 }
 .catagory a:link{ 
-  padding-left: 20px;}
+  padding-left: 10px;
+  padding-right: 10px;}
 
   @media (max-width:490px){ .catagory{right:80px;}}
   @media (max-width:450px){ .catagory{right:75px;}}
@@ -56,6 +57,24 @@ a:visited{ color: #000000;}
       font-size: 18px;
     }
   }
+.interactive .top-catagory.uxui{
+  background: rgb(231, 231, 231);
+  padding:3px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.branding .top-catagory.branding{
+  background: rgb(231, 231, 231);
+  padding:3px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.packaging .top-catagory.packaging{
+  background: rgb(231, 231, 231);
+  padding:3px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 .menu-right{
   width: 50px;
