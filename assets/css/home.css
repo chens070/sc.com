@@ -83,7 +83,7 @@ a:visited{
 .block.about-me{
   height: 75vh;
   padding: 5vw;
-  margin: 3vw;
+  margin: 3.125vw;
   border: 3px solid black;
   border-style: dashed;
   background: #fff;
@@ -93,28 +93,28 @@ a:visited{
 
 .block.uxui{
   padding: 5vw;
-  margin: 3vw;
+  margin: 3.125vw;
   border: 3px solid black;
   border-style: dashed;
   background: #fff;
 }
 .block.branding{
   padding: 5vw;
-  margin: 3vw;
+  margin: 3.125vw;
   border: 3px solid black;
   border-style: dashed;
   background: #fff;
 }
 .block.packaging{
   padding: 5vw;
-  margin: 3vw;
+  margin: 3.125vw;
   border: 3px solid black;
   border-style: dashed;
   background: #fff;
 }
 .block.contact{
   padding: 5vw;
-  margin: 3vw;
+  margin: 3.125vw;
   border: 3px solid black;
   border-style: dashed;
   background: #fff;
